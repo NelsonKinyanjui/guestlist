@@ -8,13 +8,13 @@ refused.textContent = 'Refuse: ';
 admitted.textContent = 'Admit: ';
   
 
-    if(i === 'Phil' || i === 'Lola'){
-        refused.textContent += people.concat() ;
+    if(person === 'Phil' || person === 'Lola'){
+        refused.textContent += `${person}, ` ;
     }
         
 else {
     
- admitted.textContent += people.concat( ) ;
+ admitted.textContent += `${person}, `;
 }
 }
 

@@ -1,6 +1,6 @@
 const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
  
-for(person of people){
+for(const person of people){
     const admitted = document.querySelector('.admitted');
 
 const refused = document.querySelector('.refused');

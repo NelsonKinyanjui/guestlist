@@ -3,7 +3,8 @@ const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay',
 for(const person of people){
     const admitted = document.querySelector('.admitted');
 
-const refused = document.querySelector('.refused');
+    const refused = document.querySelector('.refused');
+    
 refused.textContent = 'Refuse: ';
 admitted.textContent = 'Admit: ';
   
